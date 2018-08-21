@@ -12,6 +12,7 @@
     </controlFlows>
     <controlFlows xmi:type="ad:ElseControlFlow" xmi:id="_nEZ_c2ZCEeePJ6kHvSOzTw" to="_nEQOcGZCEeePJ6kHvSOzTw" from="_S1hrUGZCEeePJ6kHvSOzTw"/>
     <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_vq1pwGZCEeePJ6kHvSOzTw" to="_uRR10GZCEeePJ6kHvSOzTw" from="_HMLCkGZCEeePJ6kHvSOzTw"/>
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_jLXf8KUmEeiEiMJ1OJCd4g" to="_igtZYKUmEeiEiMJ1OJCd4g" from="_uRR10GZCEeePJ6kHvSOzTw"/>
     <nodes xmi:type="ad:InitialNode" xmi:id="_FTWKoGZAEeePJ6kHvSOzTw" name="Initial Node" controlFlowsOut="_RXQ9kGZCEeePJ6kHvSOzTw"/>
     <nodes xmi:type="ad:BusinessActivityNode" xmi:id="_GNCLsGZAEeePJ6kHvSOzTw" name="Login" controlFlowsIn="_RXQ9kGZCEeePJ6kHvSOzTw" controlFlowsOut="_HMLClmZCEeePJ6kHvSOzTw">
       <potentiallyDeletedFields xmi:type="ad:BusinessField" xmi:id="_GNEA4GZAEeePJ6kHvSOzTw" name="credentials" qmlId="qmlddb58cbfa6ba45099f5671c6df3c1d0c">
@@ -95,7 +96,7 @@
       </condition>
     </nodes>
     <nodes xmi:type="ad:TerminateNode" xmi:id="_nEQOcGZCEeePJ6kHvSOzTw" name="Exit" controlFlowsIn="_nEZ_c2ZCEeePJ6kHvSOzTw"/>
-    <nodes xmi:type="ad:BusinessActivityNode" xmi:id="_uRR10GZCEeePJ6kHvSOzTw" name="Request loan" controlFlowsIn="_vq1pwGZCEeePJ6kHvSOzTw">
+    <nodes xmi:type="ad:BusinessActivityNode" xmi:id="_uRR10GZCEeePJ6kHvSOzTw" name="Request loan" controlFlowsIn="_vq1pwGZCEeePJ6kHvSOzTw" controlFlowsOut="_jLXf8KUmEeiEiMJ1OJCd4g">
       <potentiallyDeletedFields xmi:type="ad:BusinessField" xmi:id="_uRR10WZCEeePJ6kHvSOzTw" name="input" qmlId="qmlfd3c865f5ef4432f85657721b2db759d">
         <type xmi:type="ad:CustomTypeRef" xmi:id="_uRR10mZCEeePJ6kHvSOzTw" idRef="String"/>
       </potentiallyDeletedFields>
@@ -115,6 +116,9 @@
           </value>
         </cells>
       </rows>
+    </nodes>
+    <nodes xmi:type="ad:BusinessActivityNode" xmi:id="_igtZYKUmEeiEiMJ1OJCd4g" name="log out" controlFlowsIn="_jLXf8KUmEeiEiMJ1OJCd4g">
+      <combinatorialStrength xmi:type="ad:Expression" xmi:id="_iguAcKUmEeiEiMJ1OJCd4g"/>
     </nodes>
   </ad:ActivityDiagram>
   <notation:Diagram xmi:id="_E7rRgGZAEeePJ6kHvSOzTw" type="ConformiqActivityChart" element="_E7gSYGZAEeePJ6kHvSOzTw" name="Parabank User story.ad" measurementUnit="Pixel">
@@ -164,6 +168,12 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_uRR13mZCEeePJ6kHvSOzTw" fontName="Segoe UI"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uRR132ZCEeePJ6kHvSOzTw" x="400" y="240" width="120" height="60"/>
     </children>
+    <children xmi:type="notation:Node" xmi:id="_igwcsKUmEeiEiMJ1OJCd4g" type="2012" element="_igtZYKUmEeiEiMJ1OJCd4g">
+      <children xmi:type="notation:DecorationNode" xmi:id="_igwctKUmEeiEiMJ1OJCd4g" type="5021"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_igwcsaUmEeiEiMJ1OJCd4g"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_igwcsqUmEeiEiMJ1OJCd4g" fontName="Segoe UI"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_igwcs6UmEeiEiMJ1OJCd4g" x="467" y="315"/>
+    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_E7rRgWZAEeePJ6kHvSOzTw"/>
     <edges xmi:type="notation:Edge" xmi:id="_HMUzkGZCEeePJ6kHvSOzTw" type="4001" element="_HMLClmZCEeePJ6kHvSOzTw" source="_GNFPAmZAEeePJ6kHvSOzTw" target="_S1rcUGZCEeePJ6kHvSOzTw">
       <styles xmi:type="notation:RoutingStyle" xmi:id="_HMUzkWZCEeePJ6kHvSOzTw"/>
@@ -212,6 +222,12 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vq1pxGZCEeePJ6kHvSOzTw" points="[0, 0, 0, -49]$[0, 49, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vq1pxWZCEeePJ6kHvSOzTw" id="(0.5,1.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vq1pxmZCEeePJ6kHvSOzTw" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_jLYHAKUmEeiEiMJ1OJCd4g" type="4001" element="_jLXf8KUmEeiEiMJ1OJCd4g" source="_uRR13GZCEeePJ6kHvSOzTw" target="_igwcsKUmEeiEiMJ1OJCd4g">
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_jLYHAaUmEeiEiMJ1OJCd4g"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_jLYHAqUmEeiEiMJ1OJCd4g" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jLYHA6UmEeiEiMJ1OJCd4g" points="[0, 0, -7, -75]$[67, 69, 60, -6]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jLZVIKUmEeiEiMJ1OJCd4g" id="(1.0,0.5)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
