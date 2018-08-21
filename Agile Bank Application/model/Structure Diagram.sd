@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq.creator.structure.dsl="http://www.conformiq.com/emf/14/StructureDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_zXc3kKUnEeiEiMJ1OJCd4g" type="Dsl" name="Structure%20Diagram.sd" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_zs-boKUnEeiEiMJ1OJCd4g" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zs_CtKUnEeiEiMJ1OJCd4g" type="5037"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zs_CtaUnEeiEiMJ1OJCd4g" type="7003"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zs-boaUnEeiEiMJ1OJCd4g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zs_CsKUnEeiEiMJ1OJCd4g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_zs_CsaUnEeiEiMJ1OJCd4g"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_zs_CsqUnEeiEiMJ1OJCd4g"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Screen" href="Structure%20Diagram.sl#qml756b49d461fc4236af87e942e610e4e8"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zs_Cs6UnEeiEiMJ1OJCd4g" x="128" y="95"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_zXc3kaUnEeiEiMJ1OJCd4g"/>
+  <element xmi:type="com.conformiq.creator.structure.dsl:Model" href="Structure%20Diagram.sl#/"/>
+</notation:Diagram>

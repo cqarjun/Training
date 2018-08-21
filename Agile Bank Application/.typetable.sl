@@ -46,3 +46,6 @@ creator.gui.screen qml24fa6d9b63ef4b3e892668e56795d2bf "Account Created"
 	creator.gui.labelwidget qmla503ee012f5b481aa0eac61e6328bb40 "Account number"
 		status = dontcare;
 }
+creator.gui.screen qml756b49d461fc4236af87e942e610e4e8 "Logout"
+{
+}
